@@ -13,12 +13,12 @@ what keeps that layer honest.
 
 | Project | What it is |
 |---|---|
-| **Three-host production platform** | 162 containers across 78+ compose stacks on Synology DSM, Unraid and an Ubuntu VPS, serving live public services. Traefik reverse-proxy fleet with automated ACME TLS, Prometheus/Grafana monitoring on every host, authentik SSO, MySQL master/replica replication, CI/CD, and automated backup and restore. |
 | **[traefik-botfilter](https://github.com/hoelee/traefik-botfilter)** | Dependency-free Traefik middleware in Go — rejects scanner and malformed-HTTP traffic using configurable request validation, heuristic scoring and temporary in-memory IP bans. |
 | **[hoelee-webdav-server](https://github.com/hoelee/hoelee-webdav-server)** | Hardened WebDAV server (Apache httpd) in Docker — pinned base image, modern TLS, healthcheck, CI/CD. |
+| **Three-host production platform** | 162 containers across 78+ compose stacks on Synology DSM, Unraid and an Ubuntu VPS, serving live public services. Traefik reverse-proxy fleet with automated ACME TLS, Prometheus/Grafana monitoring on every host, authentik SSO, MySQL master/replica replication, CI/CD, and automated backup and restore. |
 | **[email-sync-oauth2](https://github.com/hoelee/email-sync-oauth2)** | Dockerised multi-account IMAP sync with OAuth2 for Office 365, Outlook.com and Gmail — built for the Microsoft Basic-Auth retirement. |
-| **[digikedai-bot](https://github.com/hoelee/digikedai-bot)** | Production Telegram AI customer-support bot: Dockerised, LLM-backed, tunnel-only ingress (no inbound ports). TypeScript + LiteLLM, running in production since Aug 2026. |
 | **[springboot-hoelee-demo](https://github.com/hoelee/springboot-hoelee-demo)** | Modern Spring Boot showcase — Thymeleaf UI, JPA, Security, caching and tests. Live at [spring.hoelee.com](https://spring.hoelee.com). |
+| **[digikedai-bot](https://github.com/hoelee/digikedai-bot)** | Production Telegram AI customer-support bot: Dockerised, LLM-backed, tunnel-only ingress (no inbound ports). TypeScript + LiteLLM. |
 | **[universal-video-transcode](https://github.com/hoelee/universal-video-transcode)** | Any video in, one MP4 out that plays on both iPad and Android. Source-file-driven recipe selection (lossless copy where possible) and a header-only gate that catches the frame-timing defect no fps test can see. |
 | **[hoelee-blog](https://github.com/hoelee/hoelee-blog)** | Technical writing on real debugging, migrations and platform design. Astro 5 + Markdown, English-first with Chinese under `/posts/zh/`, deployed by self-hosted CI/CD. |
 
